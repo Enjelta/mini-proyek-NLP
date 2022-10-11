@@ -30,7 +30,7 @@
         },
         {"tag": "Sewa",
          "patterns": ["boleh sewa mobil?", "saya ingin meminjam mobil", "gimana cara pinjem mobil?","mobil dong","jeep ada?","inova ada?","avanza ada?","sewa dong" ],
-         "responses": ["untuk penyewaan hari ini hubungi 0856933346049", "oh baik untuk menyewa hubungi 085693346049"]
+         "responses": ["untuk penyewaan hari ini hubungi 081377449834", "oh baik untuk menyewa hubungi 081377449834"]
         }
    ]
 }
