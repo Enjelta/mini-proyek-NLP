@@ -1,0 +1,340 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "Selamat Pagi",
+        "hy",
+        "Selamat Malam",
+        "Selamat Sore",
+        "Selamat Siang",
+        "Mas",
+        "Mbak",
+        "Bapak",
+        "Ibu",
+        "Adek"
+      ],
+      "responses": [
+        "Hai! Expedbot di sini. apa yang bisa kami lakukan nih?",
+        "Halo! Saya Expedsbot, salam kenal! Mau tau tentang pengiriman barang, kan?",
+        "Helo! Ini Expedbot. barang apa saja yang mau dikirim?",
+	      "Helo! Ini Expedbot. baiklah silahkan tunggu barangnya tiba yaa!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "baiklah",
+        "Good",
+        "Mantap",
+        "Baguss",
+        "Thankyouu",
+        "Sampai jumpa",
+        "Biee biee",
+        "See you"
+      ],
+      "responses": [
+        "Thankyouu!",
+        "makasii!",
+        "Terimakasih!",
+        "Teriakasih, semoga barang tiba dengan baik-baik saja!",
+        "Silahkan datang lagi pada kami!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati:)"
+      ]
+    },
+    {
+      "tag": "penjelasan_ekspedisi_pengiriman_barang",
+      "patterns": [
+        "Apa itu Ekspedisi_pengiriman_barang?"
+      ],
+      "responses": [
+        "Ekspedisi_Pengiriman_Barang merupakan layanan pengiriman barang yang ada di indonesia yang bisa kita kirim melalui website resmi atau kita bisa mendownload aplikasinya di playstore."
+      ]
+    },
+    {
+      "tag": "tujuan_Ekspedisi_Pengiriman_Barang",
+      "patterns": [
+        "Apa tujuan Ekspedisi_Pengiriman_Barang?"
+      ],
+      "responses": [
+        "Tujuan Ekspedisi_Pengiriman_Barang adalah Melalui jasa ini, pihak pengirim dapat mengirimkan barangnya dengan mudah untuk disampaikan kepada pelanggan."
+      ]
+    },
+    {
+      "tag": "persyaratan_ekspedisi_pengiriman_barang",
+      "patterns": [
+        "Apa persyaratan ekspedisi_pengiriman_barang?"
+      ],
+      "responses": [
+        "Persyaratan ekspedisi_pengiriman_barang, yaitu Dokumen Penyerahan Barang, Adanya Sistem Ongkir, Wajib Adanya Asuransi Sebagai Syarat Penyerahan Barang, Syarat Pembayaran Barang, Pencatatan Transaksi."
+      ]
+    },
+    {
+      "tag": "ekspedisi_pengiriman_barang",
+      "patterns": [
+        "Apa saja jenis ekspedisi_pengiriman_barang?"
+      ],
+      "responses": [
+        "Terdapat jenis pengiriman yaitu Ekspress, Ekspedisi Laut, Ekspedisi Udara, Full Truck Load (FTL), Less Than Truck Load (LTL) "
+      ]
+    },
+    {
+      "tag": "ekspedisi_pengiriman_barang",
+      "patterns": [
+        "J&T Cargo",
+        "J&T Express",
+      ],
+      "responses": [
+        "Yuk, pilih jenis expedisi pengiriman barangnya:"
+      ]
+    },
+    {
+      "tag": "program_kampus_merdeka",
+      "patterns": [
+        "Express",
+        "Expedisi Laut",
+        "Expedisi Udara",
+        "Full Truck Load (FTL)",
+        "Less Than Truck Load (LTL)",
+     
+      ],
+      "responses": [
+        "Mau tau pengiriman barang apa nih?"
+      ]
+    },
+    {
+      "tag": "penjelasan_Expedisi_Laut",
+      "patterns": [
+        "Apa itu expedisi laut?"
+      ],
+      "responses": [
+        "Untuk pengiriman antarpulau, jenis ekspedisi yang satu ini menjadi pilihan yang paling murah dan bisa mengantarkan barang dengan volume yang besar dan berat."
+      ]
+    },
+    {
+      "tag": "persyaratan_expedisi_laut",
+      "patterns": [
+        "Apa saja persyaratan Studi Independen?"
+      ],
+      "responses": [
+        "Tidak ada persyaratan khusus, yang penting harus mendaftar, cari rute pengiriman, terdapat pesan dan pembayaran"
+      ]
+    },
+    {
+      "tag": "jadwal_dan_pendaftaran_expedisi_laut",
+      "patterns": [
+        "Bagaimana penjadwalan dan cara mendaftar program expedisi laut?"
+      ],
+      "responses": [
+        "jadwal pengiriman barang bebas asal tidak hari merah. Cara mendaftarnya dengan mengunjungi laman https://21express.co.id/"
+      ]
+    },
+    {
+      "tag": "manfaat_expedisi_laut",
+      "patterns": [
+        "Apa saja manfaat apabila pengiriman barang expedisi laut?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, Untuk pengiriman barang yang lebih banyak dan besar tarif ekspedisi laut lebih terjangkau. Jadi anda bisa mengangkut barang dalam jumlah yang banyak dengan tarif lebih murah . Untuk sebuah bisnis tentu saja akan sangat menentukan. Menjangkau lebih banyak daerah."
+      ]
+    },
+    {
+      "tag": "mitra_expedisi_laut",
+      "patterns": [
+        "Apa saja mitra yang tergabung dalam expedisi laut?"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Mitra Laut Group. PT, MITRALOGISTICS | Jasa Pengiriman Barang, PT Sarana Mitra Bahari, dsb. Info lebih lanjut melalui laman https://21express.co.id/"
+      ]
+    },
+    {
+      "tag": "penjelasan_Express",
+      "patterns": [
+        "Apa itu Express?"
+      ],
+      "responses": [
+        "Persis seperti namanya, jenis yang satu ini merupakan layanan pengantaran dengan durasi yang cepat. Biasanya hanya memakan waktu satu sampai dua hari, tergantung dari barang sampai ke tangan jasa ekspedisi."
+      ]
+    },
+    {
+      "tag": "persyaratan_Express",
+      "patterns": [
+        "Apa saja persyaratan Express?"
+      ],
+      "responses": [
+        "Tidak ada persyaratan khusus, yang penting harus mendaftar, cari rute pengiriman, terdapat pesan dan pembayaran"
+      ]
+    },
+    {
+      "tag": "jadwal_dan_pendaftaran_expedisi_laut",
+      "patterns": [
+        "Bagaimana penjadwalan dan cara mendaftar program expedisi laut?"
+      ],
+      "responses": [
+        "jadwal pengiriman barang bebas asal tidak hari merah. Cara mendaftarnya dengan mengunjungi laman https://21express.co.id/"
+      ]
+    },
+    {
+      "tag": "manfaat_Express",
+      "patterns": [
+        "Apa saja manfaat apabila pengiriman barang express?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, selain meningkatkan pengalaman pelanggan, pengiriman ekspres juga dapat membantu faktor-faktor lain di perusahaan Anda dan terjamin paket sampai dengan selamat. Pengiriman ekspres sangat menghargai keamanan produk saat dalam perjalanan menuju pelanggan yang dituju."
+      ]
+    },
+    {
+      "tag": "mitra_Express",
+      "patterns": [
+        "Apa saja mitra yang tergabung dalam pengiriman Express?"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Mitra yang tergabung seperti Mitra Laut Group. PT, MITRALOGISTICS | Jasa Pengiriman Barang, PT Sarana Mitra Bahari, dsb. Info lebih lanjut melalui laman https://21express.co.id/"
+      ]
+    },
+    {
+      "tag": "penjelasan_expedisi_udara",
+      "patterns": [
+        "Apa itu expedisi udara?"
+      ],
+      "responses": [
+        "Untuk durasi pengantaran antarpulau atau antarkota yang lebih cepat bisa menggunakan ekspedisi udara ini. Dari segi tarif, jelas harganya lebih mahal daripada laut dan barang yang dibawa pun memiliki batasan volume dan berat."
+      ]
+    },
+    {
+      "tag": "persyaratan_expedisi_udara",
+      "patterns": [
+        "Apa saja persyaratan expedisi udara?"
+      ],
+      "responses": [
+        "Tidak ada persyaratan khusus, yang penting harus mendaftar, cari rute pengiriman, terdapat pesan dan pembayaran"
+      ]
+    },
+    {
+      "tag": "jadwal_dan_pendaftaran_expedisi_laut",
+      "patterns": [
+        "Bagaimana penjadwalan dan cara mendaftar program expedisi laut?"
+      ],
+      "responses": [
+        "jadwal pengiriman barang bebas asal tidak hari merah. Cara mendaftarnya dengan mengunjungi laman https://21express.co.id/"
+      ]
+    },
+    {
+      "tag": "manfaat_expedisi_udara",
+      "patterns": [
+        "Apa saja manfaat apabila pengiriman barang expedisi udara?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu Solusi Perbedaan Geografis Antar Wilayah, lebih tepat waktu"
+      ]
+    },
+    {
+      "tag": "penjelasan_ FullTruckLoad (FTL)",
+      "patterns": [
+        "Apa itu FullTruckLoad(FTL)?"
+      ],
+      "responses": [
+        "Untuk pengiriman jalur darat, jenis ekspedisi yang satu ini menyawakan mobil truk yang bisa digunakan sesuai kebutuhan."
+      ]
+    },
+    {
+      "tag": "persyaratan_FullTruckLoad(FTL)",
+      "patterns": [
+        "Apa saja persyaratan FullTruckLoad(FTL)?"
+      ],
+      "responses": [
+        "idak ada persyaratan khusus, yang penting harus mendaftar, cari rute pengiriman, terdapat pesan dan pembayaran"
+      ]
+    },
+    {
+      "tag": "jadwal_dan_pendaftaran_FullTruckLoad(FTL)",
+      "patterns": [
+        "Bagaimana penjadwalan dan cara mendaftar FullTruckLoad(FTL)?"
+      ],
+      "responses": [
+        "jadwal pengiriman barang bebas asal tidak hari merah. Cara mendaftarnya dengan mengunjungi laman https://21express.co.id/"
+      ]
+    },
+    {
+      "tag": "manfaat_FullTruckLoad(FTL)",
+      "patterns": [
+        "Apa saja manfaat apabila pengiriman FullTruckLoad(FTL)?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu FTL adalah yang terbaik untuk mengangkut kargo atau pengiriman yang bernilai tinggi dan sensitif, Pengiriman FTL menjamin penjemputan dan pengiriman tepat waktu, FTL adalah pilihan yang sempurna untuk grosir dan produsen yang menangani bahan mentah, barang berharga, bahan sensitif, atau bahan yang memiliki sifat segera dikirim"
+      ]
+    },
+    {
+      "tag": "mitra_FullTruckLoad(FTL)",
+      "patterns": [
+        "Apa saja mitra yang tergabung dalam pengiriman FullTruckLoad(FTL)"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Mitra yang tergabung seperti Mitra Laut Group. PT, MITRALOGISTICS | Jasa Pengiriman Barang, PT Sarana Mitra Bahari, dsb. Info lebih lanjut melalui laman https://21express.co.id/"
+      ]
+    },
+    {
+      "tag": "penjelasan_LessThanTruckLoad(LTL)",
+      "patterns": [
+        "Apa itu LessThanTruckLoad(LTL)?"
+      ],
+      "responses": [
+        "Layanan pengantaran jalur darat lainnya yang sama-sama menggunakan truk. Hanya saja untuk LTL ini, truk akan menampung barang dari beberapa pengguna sampai muatan terisi penuh."
+      ]
+    },
+    {
+     "tag": "persyaratan_LessThanTruckLoad(LTL)",
+      "patterns": [
+        "Apa saja persyaratan LessThanTruckLoad(LTL)?"
+      ],
+      "responses": [
+        "idak ada persyaratan khusus, yang penting harus mendaftar, cari rute pengiriman, terdapat pesan dan pembayaran"   
+      ]
+    },
+    {
+       "tag": "jadwal_dan_pendaftaran_LessThanTruckLoad(LTL)",
+      "patterns": [
+        "Bagaimana penjadwalan dan cara mendaftar LessThanTruckLoad(LTL)?"
+      ],
+      "responses": [
+        "jadwal pengiriman barang bebas asal tidak hari merah. Cara mendaftarnya dengan mengunjungi laman https://21express.co.id/"
+      ]
+    },
+    {
+      "tag": "manfaat_LessThanTruckLoad(LTL)",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Pertukaran Mahasiswa Merdeka?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu LTL dapat membantu Anda sedikit menghemat biaya karena Anda tidak perlu memesan seluruh truk, Cocok untuk pengiriman kecil dengan hanya beberapa kiriman dalam satu waktu"
+      ]
+    },
+      {
+	 "tag": "mitra_FullTruckLoad(FTL)",
+      "patterns": [
+        "Apa saja mitra yang tergabung dalam pengiriman FullTruckLoad(FTL)"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Mitra yang tergabung seperti Mitra Laut Group. PT, MITRALOGISTICS | Jasa Pengiriman Barang, PT Sarana Mitra Bahari, dsb. Info lebih lanjut melalui laman https://21express.co.id/"
+   
+      ]
+    }
+  ]
+}
