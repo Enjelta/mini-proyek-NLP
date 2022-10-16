@@ -1,0 +1,32 @@
+{"pengetahuan": [
+        {"tag": "salam pembuka",
+         "patterns": ["Hii","Selamat Pagi","Selamat Sore", "Selamat Malam", "Mas", "Mbak", "Bapak","Ibu", "Adek","Selamat Siang"],
+         "responses": ["Hello, apa yang bisa kami lakukan nih?", "ada perlu apa?"],
+         "context_set": ""
+        },
+        {"tag": "Salam penutup",
+         "patterns": ["Baiklah", "Terimakasih!", "Terimakasih banyak", "Thankyouu","makasih","Goodbye"],
+         "responses": ["Semoga barang yang dikirim tiba dengan baik-baik saja", "silahkan datang lagi pada kami", "See youu, senang bisa membantu!"]
+        },
+        {"tag": "Terimakasih",
+         "patterns": ["Terimakasih banyak!", "Thankyou", "Sangat Membantu"],
+         "responses": ["Sama-sama!", "Terimakasih kembali", "My pleasure"]
+        },
+        {"tag": "jadwal,
+         "patterns": ["Jadwalnya hari apa saja ya?", "buka jam berapa ya?", "tutup jam berapa?",  "jam keberangkatannya jam berapa?","bisa dateng melalui gosend?" ],
+         "responses": ["buka setiap hari selain hari minggu dan hari merah ya?", "jam operasional buka dari jam 08.00 sd 16.00 yaa", "keberangkatan barang dimulai dua jam sekali", "boleh"]
+        },
+        {"tag": "barang",
+         "patterns": ["barang yang mau dikirim boleh apa aja ya?", "berapa jenis barang?", "Berat barang berapa Kg?"],
+         "responses": ["bisa asal tidak barang haram dan barang yang beratnya melampaui 5 kg ", "bermacam-maca jenis barang juga boleh,  Max 5 kg yaa"]
+        },
+        {"tag": "pembayaran",
+         "patterns": ["Bisa bayar pake Cahs?", "Bisa bayar pake debit?", "cuma bisa bayar cash?","bayarnya gimana?","bayar nya gmana?",],
+         "responses": ["Kami menerima VISA, Mastercard dan AMEX", "Kami menerima hampir seluruh creditcards"]
+        },
+        {"tag": "Pengiriman",
+         "patterns": ["kalau kirim gitar bagaimana?", "saya ingin mengirim berkas penting, apakah bisa dijamin?", "berapa lama pengirimannya akan tiba?","bisa express kan?"],
+         "responses": ["boleh", "bisa, silahkan cantumkan nomor telepon", "dijamin", "Max pengiriman akan tiba 5 hari kedepan"]
+        }
+   ]
+}
