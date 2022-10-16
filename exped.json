@@ -1,4 +1,4 @@
-{"pengetahuan": [
+{"intents": [
         {"tag": "salam pembuka",
          "patterns": ["Hii","Selamat Pagi","Selamat Sore", "Selamat Malam", "Mas", "Mbak", "Bapak","Ibu", "Adek","Selamat Siang"],
          "responses": ["Hello, apa yang bisa kami lakukan nih?", "ada perlu apa?"],
